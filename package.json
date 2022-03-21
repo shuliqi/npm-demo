@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "console.log('-------prepare-------')",
-    "test": "console.log('1111')"
+    "prebuild": "node prebuild.js",
+    "build": "node build.js",
+    "postbuild": "node postbuild.js"
   },
   "author": "shuliqi",
   "license": "ISC"
