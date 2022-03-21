@@ -1,11 +1,11 @@
 {
   "name": "shuliqi-npm-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "console.log('-------prepare-------')",
-    "test": "console.log('1111')"
+    "prepublishOnly": "node prepublishOnly.js",
+    "postpublish": "node postpublish.js"
   },
   "author": "shuliqi",
   "license": "ISC"
