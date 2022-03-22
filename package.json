@@ -1,13 +1,12 @@
 {
   "name": "shuliqi-npm-demo",
-  "version": "1.0.14",
+  "version": "1.0.18",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "node preinstall.js",
-    "postinstall": "node postinstall.js"
+    "preinstall":  "echo \"--------preinstall------------\" ",
+    "postinstall":  "echo \"--------postinstall------------\" "
   },
-  "foreground-scripts": true,
   "author": "shuliqi",
   "license": "ISC"
 }
