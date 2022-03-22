@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
   "scripts": {
-    "prebuild": "node prebuild.js",
-    "build": "node build.js",
-    "postbuild": "node postbuild.js"
+    "prebuild":  "echo \"--------prebuild------------\" ",
+    "build":  "echo \"--------build------------\" ",
+    "postbuild":  "echo \"--------prepare------------\" "
   },
   "author": "shuliqi",
   "license": "ISC"
