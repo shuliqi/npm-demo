@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "console.log('-------prepare-------')",
-    "test": "console.log('1111')"
+    "prepack": "node prepack.js",
+    "postpack":"node postpack.js"
   },
   "author": "shuliqi",
   "license": "ISC"
