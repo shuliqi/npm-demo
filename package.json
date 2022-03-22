@@ -1,11 +1,11 @@
 {
   "name": "shuliqi-npm-demo",
-  "version": "1.0.0",
+  "version": "1.0.17",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepack": "node prepack.js",
-    "postpack":"node postpack.js"
+    "prepack":  "echo \"--------prepack------------\" ",
+    "postpack":  "echo \"--------postpack------------\" "
   },
   "author": "shuliqi",
   "license": "ISC"
