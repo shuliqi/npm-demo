@@ -1,11 +1,14 @@
 {
   "name": "shuliqi-npm-demo",
-  "version": "1.0.1",
+  "version": "1.0.17",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepublishOnly": "node prepublishOnly.js",
-    "postpublish": "node postpublish.js"
+    "prepublishOnly":  "echo \"--------prepublishOnly------------\" ",
+    "prepack":  "echo \"--------prepack------------\" ",
+    "postpack":  "echo \"--------postpack------------\" ",
+    "postpublish":  "echo \"--------postpublish------------\" "
+
   },
   "author": "shuliqi",
   "license": "ISC"
