@@ -1,11 +1,17 @@
 {
   "name": "shuliqi-npm-demo",
-  "version": "1.0.0",
+  "version": "1.0.25",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "console.log('-------prepare-------')",
-    "test": "console.log('1111')"
+    "prerestart": "echo \"--------prerestart------------\" ",
+    "prestop": "echo \"--------prestop------------\" ",
+    "stop": "echo \"--------stop------------\" ",
+    "poststop": "echo \"--------poststop------------\" ",
+    "prestart": "echo \"--------prestart------------\" ",
+    "start": "echo \"--------start------------\" ",
+    "poststart": "echo \"--------poststop------------\" ",
+    "postrestart": "echo \"--------prestart------------\" "
   },
   "author": "shuliqi",
   "license": "ISC"
